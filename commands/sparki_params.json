@@ -1,0 +1,10 @@
+{
+    "outdir": "/lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc/results",
+    "bam_files": "/lustre/scratch125/casm/staging/team113/jb62/2703_2770/**.bam",
+    "reference_database": "/lustre/scratch127/casm/projects/dermatlas/references/kraken2/PlusPFP_Capped16GB_March2023",
+    "confidence": "0.1",
+    "organism": "'Homo sapiens'",
+    "domain": "Viruses",
+    "verbosity": "debug",
+    "copy_mode": "symlink"
+}

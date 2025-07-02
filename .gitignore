@@ -1,0 +1,5 @@
+*.log*
+work/*
+.nextflow/*
+results/fastq/*.fq.gz
+logs/bam_staging/*

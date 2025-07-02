@@ -1,0 +1,2096 @@
+N E X T F L O W  ~  version 22.04.3
+Launching `https://gitlab.internal.sanger.ac.uk/team113_projects/jb62-projects/sparki-nf` [cranky_leakey] DSL2 - revision: 6846f25844cc0f4c63d0517c2ec34218d54fd09e
+[-        ] process > BAM_TO_FASTQ                   -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+[-        ] process > BAM_TO_FASTQ                   [  0%] 0 of 1
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+[-        ] process > BAM_TO_FASTQ                   [  0%] 0 of 11
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+[-        ] process > BAM_TO_FASTQ                   [  0%] 0 of 25
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+[-        ] process > BAM_TO_FASTQ                   [  0%] 0 of 39
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+[-        ] process > BAM_TO_FASTQ                   [  0%] 0 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (1)
+[be/653cda] process > BAM_TO_FASTQ (1)               [  0%] 0 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (2)
+[08/cc449d] process > BAM_TO_FASTQ (2)               [  0%] 0 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (3)
+[e2/8e568f] process > BAM_TO_FASTQ (4)               [  0%] 0 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (4)
+[e2/8e568f] process > BAM_TO_FASTQ (4)               [  0%] 0 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (4)
+[2a/4b484f] process > BAM_TO_FASTQ (3)               [  0%] 0 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (5)
+[dd/de20cd] process > BAM_TO_FASTQ (5)               [  0%] 0 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (6)
+[76/045845] process > BAM_TO_FASTQ (6)               [  0%] 0 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (7)
+[06/d98c83] process > BAM_TO_FASTQ (7)               [  0%] 0 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (8)
+[b8/d85b25] process > BAM_TO_FASTQ (8)               [  0%] 0 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (9)
+[88/df5605] process > BAM_TO_FASTQ (10)              [  0%] 0 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (10)
+[6e/227a0f] process > BAM_TO_FASTQ (9)               [  0%] 0 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (10)
+[6e/227a0f] process > BAM_TO_FASTQ (9)               [  0%] 0 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (11)
+[bf/7f565e] process > BAM_TO_FASTQ (11)              [  0%] 0 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (12)
+[6b/405658] process > BAM_TO_FASTQ (13)              [  0%] 0 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (13)
+[65/af5a4e] process > BAM_TO_FASTQ (12)              [  0%] 0 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (14)
+[77/512fd2] process > BAM_TO_FASTQ (14)              [  0%] 0 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (15)
+[5d/6a53c8] process > BAM_TO_FASTQ (15)              [  0%] 0 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (16)
+[c1/065114] process > BAM_TO_FASTQ (16)              [  0%] 0 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (17)
+[ca/f3c45e] process > BAM_TO_FASTQ (17)              [  0%] 0 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (18)
+[b7/4551d4] process > BAM_TO_FASTQ (18)              [  0%] 0 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (19)
+[fb/1f682c] process > BAM_TO_FASTQ (19)              [  0%] 0 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (20)
+[4e/0b6144] process > BAM_TO_FASTQ (20)              [  0%] 0 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (20)
+[4e/0b6144] process > BAM_TO_FASTQ (20)              [  0%] 0 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (20)
+[4e/0b6144] process > BAM_TO_FASTQ (20)              [  0%] 0 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (20)
+[77/512fd2] process > BAM_TO_FASTQ (14)              [  2%] 1 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+Pulling Singularity image docker://quay.io/biocontainers/kraken2:2.1.5--pl5321h077b44d_0 [cache /lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc/work/singularity/quay.io-biocontainers-kraken2-2.1.5--pl5321h077b44d_0.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc/work/singularity -- Use env variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+executor >  lsf (21)
+[ee/005fde] process > BAM_TO_FASTQ (43)              [  2%] 1 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+Pulling Singularity image docker://quay.io/biocontainers/kraken2:2.1.5--pl5321h077b44d_0 [cache /lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc/work/singularity/quay.io-biocontainers-kraken2-2.1.5--pl5321h077b44d_0.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc/work/singularity -- Use env variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+executor >  lsf (21)
+[ee/005fde] process > BAM_TO_FASTQ (43)              [  2%] 1 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+Pulling Singularity image docker://quay.io/biocontainers/kraken2:2.1.5--pl5321h077b44d_0 [cache /lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc/work/singularity/quay.io-biocontainers-kraken2-2.1.5--pl5321h077b44d_0.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc/work/singularity -- Use env variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+executor >  lsf (21)
+[65/af5a4e] process > BAM_TO_FASTQ (12)              [  4%] 2 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+
+
+executor >  lsf (22)
+[e9/b24e84] process > BAM_TO_FASTQ (21)              [  4%] 2 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+
+
+executor >  lsf (22)
+[e9/b24e84] process > BAM_TO_FASTQ (21)              [  4%] 2 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (22)
+[e9/b24e84] process > BAM_TO_FASTQ (21)              [  4%] 2 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... [  0%] 0 of 2
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (22)
+[6b/405658] process > BAM_TO_FASTQ (13)              [  6%] 3 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... [  0%] 0 of 3
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (23)
+[4e/82336e] process > BAM_TO_FASTQ (36)              [  6%] 3 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... [  0%] 0 of 3
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (23)
+[4e/82336e] process > BAM_TO_FASTQ (36)              [  6%] 3 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... [  0%] 0 of 3
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (23)
+[b7/4551d4] process > BAM_TO_FASTQ (18)              [  8%] 4 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... [  0%] 0 of 4
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (24)
+[16/caeb69] process > BAM_TO_FASTQ (38)              [  8%] 4 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... [  0%] 0 of 4
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (24)
+[16/caeb69] process > BAM_TO_FASTQ (38)              [  8%] 4 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... [  0%] 0 of 4
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (24)
+[c1/065114] process > BAM_TO_FASTQ (16)              [ 10%] 5 of 46
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... [  0%] 0 of 5
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (25)
+[c1/065114] process > BAM_TO_FASTQ (16)              [ 10%] 5 of 46
+[98/d9580f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [  0%] 0 of 5
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (25)
+[c1/065114] process > BAM_TO_FASTQ (16)              [ 10%] 5 of 46
+[98/d9580f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [  0%] 0 of 5
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (25)
+[4e/0b6144] process > BAM_TO_FASTQ (20)              [ 13%] 6 of 46
+[98/d9580f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [  0%] 0 of 6
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (26)
+[c6/14aeea] process > BAM_TO_FASTQ (32)              [ 13%] 6 of 46
+[98/d9580f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [  0%] 0 of 6
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (26)
+[c6/14aeea] process > BAM_TO_FASTQ (32)              [ 13%] 6 of 46
+[98/d9580f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [  0%] 0 of 6
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (26)
+[c6/14aeea] process > BAM_TO_FASTQ (32)              [ 13%] 6 of 46
+[98/d9580f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+Pulling Singularity image docker://gitlab-registry.internal.sanger.ac.uk/dermatlas/krakentools:1.2.4 [cache /lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc/work/singularity/gitlab-registry.internal.sanger.ac.uk-dermatlas-krakentools-1.2.4.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc/work/singularity -- Use env variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+executor >  lsf (27)
+[5d/aca76a] process > BAM_TO_FASTQ (23)              [ 13%] 6 of 46
+[98/d9580f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+Pulling Singularity image docker://gitlab-registry.internal.sanger.ac.uk/dermatlas/krakentools:1.2.4 [cache /lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc/work/singularity/gitlab-registry.internal.sanger.ac.uk-dermatlas-krakentools-1.2.4.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc/work/singularity -- Use env variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+executor >  lsf (27)
+[5d/aca76a] process > BAM_TO_FASTQ (23)              [ 13%] 6 of 46
+[98/d9580f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+Pulling Singularity image docker://gitlab-registry.internal.sanger.ac.uk/dermatlas/krakentools:1.2.4 [cache /lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc/work/singularity/gitlab-registry.internal.sanger.ac.uk-dermatlas-krakentools-1.2.4.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc/work/singularity -- Use env variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+executor >  lsf (27)
+[fb/1f682c] process > BAM_TO_FASTQ (19)              [ 15%] 7 of 46
+[98/d9580f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 14%] 1 of 7
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... -
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+
+
+executor >  lsf (27)
+[fb/1f682c] process > BAM_TO_FASTQ (19)              [ 15%] 7 of 46
+[98/d9580f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 14%] 1 of 7
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... [  0%] 0 of 1
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+
+
+executor >  lsf (28)
+[00/05603d] process > BAM_TO_FASTQ (22)              [ 15%] 7 of 46
+[98/d9580f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 14%] 1 of 7
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... [  0%] 0 of 1
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (28)
+[00/05603d] process > BAM_TO_FASTQ (22)              [ 15%] 7 of 46
+[98/d9580f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 14%] 1 of 7
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... [  0%] 0 of 1
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (28)
+[5d/6a53c8] process > BAM_TO_FASTQ (15)              [ 17%] 8 of 46
+[98/d9580f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 12%] 1 of 8
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... [  0%] 0 of 1
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (29)
+[fa/4ce2fc] process > BAM_TO_FASTQ (41)              [ 17%] 8 of 46
+[98/d9580f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 12%] 1 of 8
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... [  0%] 0 of 1
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (29)
+[fa/4ce2fc] process > BAM_TO_FASTQ (41)              [ 17%] 8 of 46
+[98/d9580f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 12%] 1 of 8
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... [  0%] 0 of 1
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (29)
+[ca/f3c45e] process > BAM_TO_FASTQ (17)              [ 19%] 9 of 46
+[98/d9580f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 11%] 1 of 9
+[-        ] process > GET_KRAKEN2_RESULTS:RUN_KRA... [  0%] 0 of 1
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (30)
+[ca/f3c45e] process > BAM_TO_FASTQ (17)              [ 19%] 9 of 46
+[98/d9580f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 11%] 1 of 9
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [  0%] 0 of 1
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (30)
+[ca/f3c45e] process > BAM_TO_FASTQ (17)              [ 19%] 9 of 46
+[98/d9580f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 11%] 1 of 9
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [  0%] 0 of 1
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (30)
+[ca/f3c45e] process > BAM_TO_FASTQ (17)              [ 19%] 9 of 46
+[98/d9580f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 11%] 1 of 9
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 1 of 1
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (31)
+[ca/f3c45e] process > BAM_TO_FASTQ (17)              [ 19%] 9 of 46
+[01/843aaf] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 11%] 1 of 9
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 1 of 1
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (31)
+[dd/de20cd] process > BAM_TO_FASTQ (5)               [ 21%] 10 of 46
+[01/843aaf] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 10%] 1 of 10
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 1 of 1
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (32)
+[dd/de20cd] process > BAM_TO_FASTQ (5)               [ 21%] 10 of 46
+[2b/124f5c] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 10%] 1 of 10
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 1 of 1
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (32)
+[dd/de20cd] process > BAM_TO_FASTQ (5)               [ 21%] 10 of 46
+[2b/124f5c] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 10%] 1 of 10
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 1 of 1
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (32)
+[06/d98c83] process > BAM_TO_FASTQ (7)               [ 23%] 11 of 46
+[2b/124f5c] process > GET_KRAKEN2_RESULTS:RUN_KRA... [  9%] 1 of 11
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 1 of 1
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (33)
+[06/d98c83] process > BAM_TO_FASTQ (7)               [ 23%] 11 of 46
+[aa/19cbe8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [  9%] 1 of 11
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 1 of 1
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (33)
+[06/d98c83] process > BAM_TO_FASTQ (7)               [ 23%] 11 of 46
+[aa/19cbe8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [  9%] 1 of 11
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 1 of 1
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (33)
+[06/d98c83] process > BAM_TO_FASTQ (7)               [ 23%] 11 of 46
+[aa/19cbe8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 18%] 2 of 11
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 50%] 1 of 2
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (34)
+[06/d98c83] process > BAM_TO_FASTQ (7)               [ 23%] 11 of 46
+[f9/0aa8ea] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 18%] 2 of 11
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 50%] 1 of 2
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (34)
+[06/d98c83] process > BAM_TO_FASTQ (7)               [ 23%] 11 of 46
+[2b/124f5c] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 36%] 4 of 11
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 25%] 1 of 4
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (35)
+[22/f6195c] process > BAM_TO_FASTQ (46)              [ 23%] 11 of 46
+[2b/124f5c] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 36%] 4 of 11
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 25%] 1 of 4
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (36)
+[22/f6195c] process > BAM_TO_FASTQ (46)              [ 23%] 11 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 36%] 4 of 11
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 25%] 1 of 4
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (36)
+[22/f6195c] process > BAM_TO_FASTQ (46)              [ 23%] 11 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 36%] 4 of 11
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 25%] 1 of 4
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (36)
+[22/f6195c] process > BAM_TO_FASTQ (46)              [ 23%] 11 of 46
+[f9/0aa8ea] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 45%] 5 of 11
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 20%] 1 of 5
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (37)
+[80/8b382d] process > BAM_TO_FASTQ (44)              [ 23%] 11 of 46
+[f9/0aa8ea] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 45%] 5 of 11
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 20%] 1 of 5
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (37)
+[80/8b382d] process > BAM_TO_FASTQ (44)              [ 23%] 11 of 46
+[f9/0aa8ea] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 45%] 5 of 11
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 20%] 1 of 5
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (37)
+[e2/8e568f] process > BAM_TO_FASTQ (4)               [ 26%] 12 of 46
+[f9/0aa8ea] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 41%] 5 of 12
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 20%] 1 of 5
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (38)
+[24/a0a92b] process > BAM_TO_FASTQ (42)              [ 26%] 12 of 46
+[f9/0aa8ea] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 41%] 5 of 12
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 20%] 1 of 5
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (38)
+[24/a0a92b] process > BAM_TO_FASTQ (42)              [ 26%] 12 of 46
+[f9/0aa8ea] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 41%] 5 of 12
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 20%] 1 of 5
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (38)
+[24/a0a92b] process > BAM_TO_FASTQ (42)              [ 26%] 12 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 50%] 6 of 12
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (39)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 26%] 12 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 50%] 6 of 12
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (39)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 26%] 12 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 50%] 6 of 12
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (39)
+[b8/d85b25] process > BAM_TO_FASTQ (8)               [ 28%] 13 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 46%] 6 of 13
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (40)
+[03/7f1010] process > BAM_TO_FASTQ (39)              [ 28%] 13 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 46%] 6 of 13
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (40)
+[03/7f1010] process > BAM_TO_FASTQ (39)              [ 28%] 13 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 46%] 6 of 13
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (40)
+[2a/4b484f] process > BAM_TO_FASTQ (3)               [ 30%] 14 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 42%] 6 of 14
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (41)
+[10/e27c8c] process > BAM_TO_FASTQ (37)              [ 30%] 14 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 42%] 6 of 14
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (41)
+[6e/227a0f] process > BAM_TO_FASTQ (9)               [ 32%] 15 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 40%] 6 of 15
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (42)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 32%] 15 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 40%] 6 of 15
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (42)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 32%] 15 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 40%] 6 of 15
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (42)
+[be/653cda] process > BAM_TO_FASTQ (1)               [ 34%] 16 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 37%] 6 of 16
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (43)
+[b2/50d2c9] process > BAM_TO_FASTQ (34)              [ 34%] 16 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 37%] 6 of 16
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (43)
+[b2/50d2c9] process > BAM_TO_FASTQ (34)              [ 34%] 16 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 37%] 6 of 16
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (43)
+[88/df5605] process > BAM_TO_FASTQ (10)              [ 36%] 17 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 35%] 6 of 17
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (44)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 36%] 17 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 35%] 6 of 17
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (44)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 36%] 17 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 35%] 6 of 17
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (44)
+[76/045845] process > BAM_TO_FASTQ (6)               [ 39%] 18 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 33%] 6 of 18
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (45)
+[8e/7d001a] process > BAM_TO_FASTQ (30)              [ 39%] 18 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 33%] 6 of 18
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (45)
+[8e/7d001a] process > BAM_TO_FASTQ (30)              [ 39%] 18 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 33%] 6 of 18
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (45)
+[e9/b24e84] process > BAM_TO_FASTQ (21)              [ 41%] 19 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 31%] 6 of 19
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (46)
+[c5/cf6370] process > BAM_TO_FASTQ (31)              [ 41%] 19 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 31%] 6 of 19
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (46)
+[c5/cf6370] process > BAM_TO_FASTQ (31)              [ 41%] 19 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 31%] 6 of 19
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (46)
+[ee/005fde] process > BAM_TO_FASTQ (43)              [ 43%] 20 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 30%] 6 of 20
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (47)
+[f0/05e1c3] process > BAM_TO_FASTQ (28)              [ 43%] 20 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 30%] 6 of 20
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (47)
+[f0/05e1c3] process > BAM_TO_FASTQ (28)              [ 43%] 20 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 30%] 6 of 20
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (47)
+[bf/7f565e] process > BAM_TO_FASTQ (11)              [ 45%] 21 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 28%] 6 of 21
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (48)
+[00/8c1fdf] process > BAM_TO_FASTQ (24)              [ 45%] 21 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 28%] 6 of 21
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (48)
+[00/8c1fdf] process > BAM_TO_FASTQ (24)              [ 45%] 21 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 28%] 6 of 21
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (48)
+[16/caeb69] process > BAM_TO_FASTQ (38)              [ 47%] 22 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 27%] 6 of 22
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (49)
+[c3/081519] process > BAM_TO_FASTQ (25)              [ 47%] 22 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 27%] 6 of 22
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (49)
+[c3/081519] process > BAM_TO_FASTQ (25)              [ 47%] 22 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 27%] 6 of 22
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (49)
+[00/05603d] process > BAM_TO_FASTQ (22)              [ 50%] 23 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 26%] 6 of 23
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (50)
+[bb/933f50] process > BAM_TO_FASTQ (27)              [ 50%] 23 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 26%] 6 of 23
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (50)
+[bb/933f50] process > BAM_TO_FASTQ (27)              [ 50%] 23 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 26%] 6 of 23
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (50)
+[c6/14aeea] process > BAM_TO_FASTQ (32)              [ 52%] 24 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 25%] 6 of 24
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (51)
+[62/fe077b] process > BAM_TO_FASTQ (26)              [ 52%] 24 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 25%] 6 of 24
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (51)
+[62/fe077b] process > BAM_TO_FASTQ (26)              [ 52%] 24 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 25%] 6 of 24
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (51)
+[4e/82336e] process > BAM_TO_FASTQ (36)              [ 54%] 25 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 24%] 6 of 25
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (52)
+[e6/d3369d] process > BAM_TO_FASTQ (29)              [ 54%] 25 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 24%] 6 of 25
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (52)
+[e6/d3369d] process > BAM_TO_FASTQ (29)              [ 54%] 25 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 24%] 6 of 25
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (52)
+[5d/aca76a] process > BAM_TO_FASTQ (23)              [ 56%] 26 of 46
+[6a/cf821b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 23%] 6 of 26
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (53)
+[5d/aca76a] process > BAM_TO_FASTQ (23)              [ 56%] 26 of 46
+[fa/5e11c9] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 23%] 6 of 26
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (53)
+[5d/aca76a] process > BAM_TO_FASTQ (23)              [ 56%] 26 of 46
+[fa/5e11c9] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 23%] 6 of 26
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 16%] 1 of 6
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (53)
+[5d/aca76a] process > BAM_TO_FASTQ (23)              [ 56%] 26 of 46
+[fa/5e11c9] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 26%] 7 of 26
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 14%] 1 of 7
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (54)
+[5d/aca76a] process > BAM_TO_FASTQ (23)              [ 56%] 26 of 46
+[22/938d0b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 26%] 7 of 26
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 14%] 1 of 7
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (54)
+[5d/aca76a] process > BAM_TO_FASTQ (23)              [ 56%] 26 of 46
+[22/938d0b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 26%] 7 of 26
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 14%] 1 of 7
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (54)
+[22/f6195c] process > BAM_TO_FASTQ (46)              [ 58%] 27 of 46
+[22/938d0b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 25%] 7 of 27
+[ef/d634a7] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 14%] 1 of 7
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (55)
+[22/f6195c] process > BAM_TO_FASTQ (46)              [ 58%] 27 of 46
+[22/938d0b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 25%] 7 of 27
+[d9/bdeaef] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 14%] 1 of 7
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (55)
+[22/f6195c] process > BAM_TO_FASTQ (46)              [ 58%] 27 of 46
+[22/938d0b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 25%] 7 of 27
+[d9/bdeaef] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 14%] 1 of 7
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (55)
+[22/f6195c] process > BAM_TO_FASTQ (46)              [ 58%] 27 of 46
+[22/938d0b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 25%] 7 of 27
+[d9/bdeaef] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 28%] 2 of 7
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (56)
+[22/f6195c] process > BAM_TO_FASTQ (46)              [ 58%] 27 of 46
+[2b/95a56e] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 25%] 7 of 27
+[d9/bdeaef] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 28%] 2 of 7
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (56)
+[22/f6195c] process > BAM_TO_FASTQ (46)              [ 58%] 27 of 46
+[2b/95a56e] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 25%] 7 of 27
+[d9/bdeaef] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 28%] 2 of 7
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (56)
+[22/f6195c] process > BAM_TO_FASTQ (46)              [ 58%] 27 of 46
+[22/938d0b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 29%] 8 of 27
+[d9/bdeaef] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 25%] 2 of 8
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (57)
+[1c/d048e2] process > BAM_TO_FASTQ (45)              [ 58%] 27 of 46
+[22/938d0b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 29%] 8 of 27
+[d9/bdeaef] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 25%] 2 of 8
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (57)
+[1c/d048e2] process > BAM_TO_FASTQ (45)              [ 58%] 27 of 46
+[2b/95a56e] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 33%] 9 of 27
+[d9/bdeaef] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 22%] 2 of 9
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (58)
+[1c/d048e2] process > BAM_TO_FASTQ (45)              [ 58%] 27 of 46
+[87/df390f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 33%] 9 of 27
+[d9/bdeaef] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 22%] 2 of 9
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (58)
+[1c/d048e2] process > BAM_TO_FASTQ (45)              [ 58%] 27 of 46
+[87/df390f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 33%] 9 of 27
+[d9/bdeaef] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 22%] 2 of 9
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (58)
+[1c/d048e2] process > BAM_TO_FASTQ (45)              [ 58%] 27 of 46
+[87/df390f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 33%] 9 of 27
+[d9/bdeaef] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 22%] 2 of 9
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (58)
+[1c/d048e2] process > BAM_TO_FASTQ (45)              [ 58%] 27 of 46
+[87/df390f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 37%] 10 of 27
+[d9/bdeaef] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 20%] 2 of 10
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (59)
+[1c/d048e2] process > BAM_TO_FASTQ (45)              [ 58%] 27 of 46
+[87/df390f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 37%] 10 of 27
+[25/c55fd0] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 20%] 2 of 10
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (59)
+[1c/d048e2] process > BAM_TO_FASTQ (45)              [ 58%] 27 of 46
+[87/df390f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 37%] 10 of 27
+[25/c55fd0] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 30%] 3 of 10
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (60)
+[1c/d048e2] process > BAM_TO_FASTQ (45)              [ 58%] 27 of 46
+[a0/91b5fc] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 37%] 10 of 27
+[25/c55fd0] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 30%] 3 of 10
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (60)
+[1c/d048e2] process > BAM_TO_FASTQ (45)              [ 58%] 27 of 46
+[a0/91b5fc] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 37%] 10 of 27
+[25/c55fd0] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 30%] 3 of 10
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (60)
+[1c/d048e2] process > BAM_TO_FASTQ (45)              [ 58%] 27 of 46
+[a0/91b5fc] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 40%] 11 of 27
+[25/c55fd0] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 27%] 3 of 11
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (61)
+[1c/d048e2] process > BAM_TO_FASTQ (45)              [ 58%] 27 of 46
+[a0/91b5fc] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 40%] 11 of 27
+[f1/50db27] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 27%] 3 of 11
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (61)
+[1c/d048e2] process > BAM_TO_FASTQ (45)              [ 58%] 27 of 46
+[a0/91b5fc] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 40%] 11 of 27
+[f1/50db27] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 27%] 3 of 11
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (61)
+[1c/d048e2] process > BAM_TO_FASTQ (45)              [ 58%] 27 of 46
+[a0/91b5fc] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 40%] 11 of 27
+[f1/50db27] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 36%] 4 of 11
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (62)
+[1c/d048e2] process > BAM_TO_FASTQ (45)              [ 58%] 27 of 46
+[68/70f9c6] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 40%] 11 of 27
+[f1/50db27] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 36%] 4 of 11
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (62)
+[1c/d048e2] process > BAM_TO_FASTQ (45)              [ 58%] 27 of 46
+[68/70f9c6] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 40%] 11 of 27
+[f1/50db27] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 36%] 4 of 11
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (62)
+[8e/7d001a] process > BAM_TO_FASTQ (30)              [ 60%] 28 of 46
+[68/70f9c6] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 39%] 11 of 28
+[f1/50db27] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 36%] 4 of 11
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (63)
+[8e/7d001a] process > BAM_TO_FASTQ (30)              [ 60%] 28 of 46
+[58/13aeb1] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 39%] 11 of 28
+[f1/50db27] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 36%] 4 of 11
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (63)
+[8e/7d001a] process > BAM_TO_FASTQ (30)              [ 60%] 28 of 46
+[58/13aeb1] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 39%] 11 of 28
+[f1/50db27] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 36%] 4 of 11
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (63)
+[8e/7d001a] process > BAM_TO_FASTQ (30)              [ 60%] 28 of 46
+[58/13aeb1] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 42%] 12 of 28
+[f1/50db27] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 33%] 4 of 12
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (64)
+[8e/7d001a] process > BAM_TO_FASTQ (30)              [ 60%] 28 of 46
+[86/1f1522] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 42%] 12 of 28
+[f1/50db27] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 33%] 4 of 12
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (64)
+[8e/7d001a] process > BAM_TO_FASTQ (30)              [ 60%] 28 of 46
+[86/1f1522] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 42%] 12 of 28
+[f1/50db27] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 33%] 4 of 12
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (64)
+[03/7f1010] process > BAM_TO_FASTQ (39)              [ 63%] 29 of 46
+[86/1f1522] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 42%] 12 of 28
+[f1/50db27] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 33%] 4 of 12
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (65)
+[03/7f1010] process > BAM_TO_FASTQ (39)              [ 63%] 29 of 46
+[33/5a49e6] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 41%] 12 of 29
+[f1/50db27] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 33%] 4 of 12
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (65)
+[03/7f1010] process > BAM_TO_FASTQ (39)              [ 63%] 29 of 46
+[33/5a49e6] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 41%] 12 of 29
+[f1/50db27] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 33%] 4 of 12
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (65)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[68/70f9c6] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 43%] 13 of 30
+[f1/50db27] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 30%] 4 of 13
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (66)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[5d/129691] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 43%] 13 of 30
+[f1/50db27] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 30%] 4 of 13
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (67)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[a6/abd799] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 43%] 13 of 30
+[f1/50db27] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 30%] 4 of 13
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (67)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[a6/abd799] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 43%] 13 of 30
+[f1/50db27] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 30%] 4 of 13
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (67)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[33/5a49e6] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 46%] 14 of 30
+[f1/50db27] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 28%] 4 of 14
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (68)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[33/5a49e6] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 46%] 14 of 30
+[14/993555] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 28%] 4 of 14
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (68)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[86/1f1522] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 50%] 15 of 30
+[14/993555] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 26%] 4 of 15
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (69)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[86/1f1522] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 50%] 15 of 30
+[3a/a53f45] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 26%] 4 of 15
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (69)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[86/1f1522] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 50%] 15 of 30
+[3a/a53f45] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 26%] 4 of 15
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (69)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[86/1f1522] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 50%] 15 of 30
+[3a/a53f45] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 33%] 5 of 15
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (70)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[a1/314842] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 50%] 15 of 30
+[3a/a53f45] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 33%] 5 of 15
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (70)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[a1/314842] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 50%] 15 of 30
+[3a/a53f45] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 33%] 5 of 15
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (70)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[5d/129691] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 53%] 16 of 30
+[3a/a53f45] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 31%] 5 of 16
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (71)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[d7/90d802] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 53%] 16 of 30
+[3a/a53f45] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 31%] 5 of 16
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (71)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[d7/90d802] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 53%] 16 of 30
+[3a/a53f45] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 31%] 5 of 16
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (71)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[d7/90d802] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 53%] 16 of 30
+[3a/a53f45] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 31%] 5 of 16
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (71)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[d7/90d802] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 53%] 16 of 30
+[14/993555] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 37%] 6 of 16
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (72)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[d1/0772ad] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 53%] 16 of 30
+[14/993555] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 37%] 6 of 16
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (72)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[a6/abd799] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 56%] 17 of 30
+[14/993555] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 35%] 6 of 17
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (73)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[fb/f8efec] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 56%] 17 of 30
+[14/993555] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 35%] 6 of 17
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (73)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[d7/90d802] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 60%] 18 of 30
+[14/993555] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 33%] 6 of 18
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (74)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[d7/90d802] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 60%] 18 of 30
+[b7/bbb8e9] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 33%] 6 of 18
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (74)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[a1/314842] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 63%] 19 of 30
+[b7/bbb8e9] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 31%] 6 of 19
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (75)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[33/8e5a05] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 63%] 19 of 30
+[b7/bbb8e9] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 31%] 6 of 19
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (75)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[33/8e5a05] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 63%] 19 of 30
+[b7/bbb8e9] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 31%] 6 of 19
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (75)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[33/8e5a05] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 63%] 19 of 30
+[b7/bbb8e9] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 36%] 7 of 19
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (76)
+[08/0f3e96] process > BAM_TO_FASTQ (40)              [ 65%] 30 of 46
+[33/8e5a05] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 63%] 19 of 30
+[dc/3e873b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 36%] 7 of 19
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (76)
+[fa/4ce2fc] process > BAM_TO_FASTQ (41)              [ 67%] 31 of 46
+[33/8e5a05] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 61%] 19 of 31
+[dc/3e873b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 36%] 7 of 19
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (77)
+[fa/4ce2fc] process > BAM_TO_FASTQ (41)              [ 67%] 31 of 46
+[33/8e5a05] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 61%] 19 of 31
+[52/7c3fc5] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 36%] 7 of 19
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (77)
+[fa/4ce2fc] process > BAM_TO_FASTQ (41)              [ 67%] 31 of 46
+[33/8e5a05] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 61%] 19 of 31
+[52/7c3fc5] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 36%] 7 of 19
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (77)
+[fa/4ce2fc] process > BAM_TO_FASTQ (41)              [ 67%] 31 of 46
+[33/8e5a05] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 61%] 19 of 31
+[52/7c3fc5] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 47%] 9 of 19
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (78)
+[fa/4ce2fc] process > BAM_TO_FASTQ (41)              [ 67%] 31 of 46
+[8d/127e32] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 61%] 19 of 31
+[52/7c3fc5] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 47%] 9 of 19
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (79)
+[fa/4ce2fc] process > BAM_TO_FASTQ (41)              [ 67%] 31 of 46
+[8d/127e32] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 61%] 19 of 31
+[c0/947752] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 47%] 9 of 19
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (79)
+[24/a0a92b] process > BAM_TO_FASTQ (42)              [ 69%] 32 of 46
+[8d/127e32] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 59%] 19 of 32
+[c0/947752] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 47%] 9 of 19
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (80)
+[24/a0a92b] process > BAM_TO_FASTQ (42)              [ 69%] 32 of 46
+[8d/127e32] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 59%] 19 of 32
+[c0/947752] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 47%] 9 of 19
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (80)
+[24/a0a92b] process > BAM_TO_FASTQ (42)              [ 69%] 32 of 46
+[8d/127e32] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 59%] 19 of 32
+[f8/a5ed7f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 47%] 9 of 19
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (80)
+[24/a0a92b] process > BAM_TO_FASTQ (42)              [ 69%] 32 of 46
+[8d/127e32] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 59%] 19 of 32
+[c0/947752] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 52%] 10 of 19
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (81)
+[24/a0a92b] process > BAM_TO_FASTQ (42)              [ 69%] 32 of 46
+[8d/127e32] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 59%] 19 of 32
+[05/4a0452] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 52%] 10 of 19
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (81)
+[08/cc449d] process > BAM_TO_FASTQ (2)               [ 71%] 33 of 46
+[8d/127e32] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 57%] 19 of 33
+[05/4a0452] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 52%] 10 of 19
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (82)
+[08/cc449d] process > BAM_TO_FASTQ (2)               [ 71%] 33 of 46
+[8d/127e32] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 57%] 19 of 33
+[ef/7d5fb1] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 52%] 10 of 19
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (82)
+[08/cc449d] process > BAM_TO_FASTQ (2)               [ 71%] 33 of 46
+[fb/f8efec] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 60%] 20 of 33
+[ef/7d5fb1] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 50%] 10 of 20
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (83)
+[08/cc449d] process > BAM_TO_FASTQ (2)               [ 71%] 33 of 46
+[fb/f8efec] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 60%] 20 of 33
+[00/73cc80] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 50%] 10 of 20
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (83)
+[08/cc449d] process > BAM_TO_FASTQ (2)               [ 71%] 33 of 46
+[33/8e5a05] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 63%] 21 of 33
+[ef/7d5fb1] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 52%] 11 of 21
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (84)
+[08/cc449d] process > BAM_TO_FASTQ (2)               [ 71%] 33 of 46
+[33/8e5a05] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 63%] 21 of 33
+[ae/7277da] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 52%] 11 of 21
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (85)
+[08/cc449d] process > BAM_TO_FASTQ (2)               [ 71%] 33 of 46
+[12/e465c9] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 63%] 21 of 33
+[ae/7277da] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 52%] 11 of 21
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (85)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 73%] 34 of 46
+[8d/127e32] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 64%] 22 of 34
+[ae/7277da] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 68%] 15 of 22
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (86)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 73%] 34 of 46
+[8d/127e32] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 64%] 22 of 34
+[e1/40a63c] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 68%] 15 of 22
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (87)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 73%] 34 of 46
+[48/aeaac3] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 64%] 22 of 34
+[e1/40a63c] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 68%] 15 of 22
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (88)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 73%] 34 of 46
+[a8/c710ac] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 64%] 22 of 34
+[e1/40a63c] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 68%] 15 of 22
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (89)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 73%] 34 of 46
+[2b/87ac5d] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 64%] 22 of 34
+[e1/40a63c] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 68%] 15 of 22
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (90)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 73%] 34 of 46
+[28/6fd1b9] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 64%] 22 of 34
+[e1/40a63c] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 68%] 15 of 22
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (91)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 73%] 34 of 46
+[3b/0a2684] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 64%] 22 of 34
+[e1/40a63c] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 68%] 15 of 22
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (91)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 73%] 34 of 46
+[3b/0a2684] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 64%] 22 of 34
+[e1/40a63c] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 72%] 16 of 22
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (92)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 73%] 34 of 46
+[3b/0a2684] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 64%] 22 of 34
+[54/baea2b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 72%] 16 of 22
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (92)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 73%] 34 of 46
+[3b/0a2684] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 64%] 22 of 34
+[54/baea2b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 72%] 16 of 22
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (92)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 73%] 34 of 46
+[3b/0a2684] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 64%] 22 of 34
+[54/baea2b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 77%] 17 of 22
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (93)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 73%] 34 of 46
+[c1/03cbcf] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 64%] 22 of 34
+[54/baea2b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 77%] 17 of 22
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (93)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 73%] 34 of 46
+[48/aeaac3] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 67%] 23 of 34
+[54/baea2b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 73%] 17 of 23
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (94)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 73%] 34 of 46
+[48/aeaac3] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 67%] 23 of 34
+[05/59d872] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 73%] 17 of 23
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (94)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 73%] 34 of 46
+[48/aeaac3] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 67%] 23 of 34
+[05/59d872] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 78%] 18 of 23
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (95)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 73%] 34 of 46
+[15/f046ae] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 67%] 23 of 34
+[05/59d872] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 78%] 18 of 23
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (95)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 73%] 34 of 46
+[3b/0a2684] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 73%] 25 of 34
+[05/59d872] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 72%] 18 of 25
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (96)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 73%] 34 of 46
+[3b/0a2684] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 73%] 25 of 34
+[fc/4cd3c3] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 72%] 18 of 25
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (97)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 73%] 34 of 46
+[3b/0a2684] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 73%] 25 of 34
+[92/01a8b8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 72%] 18 of 25
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (97)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 73%] 34 of 46
+[a8/c710ac] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 79%] 27 of 34
+[92/01a8b8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 66%] 18 of 27
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (98)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 73%] 34 of 46
+[eb/7d79b8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 79%] 27 of 34
+[92/01a8b8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 66%] 18 of 27
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (99)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 73%] 34 of 46
+[79/187ee3] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 79%] 27 of 34
+[92/01a8b8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 66%] 18 of 27
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (99)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 73%] 34 of 46
+[c1/03cbcf] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 82%] 28 of 34
+[92/01a8b8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 64%] 18 of 28
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (100)
+[a6/5a28d6] process > BAM_TO_FASTQ (35)              [ 73%] 34 of 46
+[c1/03cbcf] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 82%] 28 of 34
+[54/e40f2e] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 64%] 18 of 28
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (100)
+[c5/cf6370] process > BAM_TO_FASTQ (31)              [ 76%] 35 of 46
+[c1/03cbcf] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 80%] 28 of 35
+[54/e40f2e] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 64%] 18 of 28
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (101)
+[c5/cf6370] process > BAM_TO_FASTQ (31)              [ 76%] 35 of 46
+[71/518717] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 80%] 28 of 35
+[54/e40f2e] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 64%] 18 of 28
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (101)
+[c5/cf6370] process > BAM_TO_FASTQ (31)              [ 76%] 35 of 46
+[71/518717] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 80%] 28 of 35
+[92/01a8b8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 71%] 20 of 28
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (102)
+[c5/cf6370] process > BAM_TO_FASTQ (31)              [ 76%] 35 of 46
+[71/518717] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 80%] 28 of 35
+[3d/1f11dc] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 71%] 20 of 28
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (103)
+[c5/cf6370] process > BAM_TO_FASTQ (31)              [ 76%] 35 of 46
+[71/518717] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 80%] 28 of 35
+[f2/ee3a02] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 71%] 20 of 28
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (103)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[15/f046ae] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 80%] 29 of 36
+[54/e40f2e] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 72%] 21 of 29
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (104)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[15/f046ae] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 80%] 29 of 36
+[1e/734a6f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 72%] 21 of 29
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (105)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[15/f046ae] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 80%] 29 of 36
+[96/01776c] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 72%] 21 of 29
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (106)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[15/f046ae] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 80%] 29 of 36
+[37/ceb255] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 72%] 21 of 29
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (106)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[eb/7d79b8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 83%] 30 of 36
+[f2/ee3a02] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 76%] 23 of 30
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (106)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[eb/7d79b8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 83%] 30 of 36
+[1e/734a6f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 80%] 24 of 30
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (107)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[eb/7d79b8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 83%] 30 of 36
+[ca/05c3af] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 80%] 24 of 30
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (108)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[eb/7d79b8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 83%] 30 of 36
+[bd/5e4327] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 80%] 24 of 30
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (109)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[ad/869f1f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 83%] 30 of 36
+[bd/5e4327] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 80%] 24 of 30
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (110)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[f9/06b299] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 83%] 30 of 36
+[bd/5e4327] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 80%] 24 of 30
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (110)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[79/187ee3] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 88%] 32 of 36
+[96/01776c] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 78%] 25 of 32
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (111)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[79/187ee3] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 88%] 32 of 36
+[dc/52c48e] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 87%] 28 of 32
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (112)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[79/187ee3] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 88%] 32 of 36
+[eb/f4b0c4] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 87%] 28 of 32
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (113)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[79/187ee3] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 88%] 32 of 36
+[67/bbe482] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 87%] 28 of 32
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (114)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[79/187ee3] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 88%] 32 of 36
+[ed/86e8f2] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 87%] 28 of 32
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (114)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[79/187ee3] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 88%] 32 of 36
+[eb/f4b0c4] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 90%] 29 of 32
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (114)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[79/187ee3] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 88%] 32 of 36
+[ed/86e8f2] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 96%] 31 of 32
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (114)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[79/187ee3] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 88%] 32 of 36
+[dc/52c48e] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 32 of 32
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (114)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[71/518717] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 91%] 33 of 36
+[dc/52c48e] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 32 of 32
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (114)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[71/518717] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 91%] 33 of 36
+[dc/52c48e] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 96%] 32 of 33
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (115)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[71/518717] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 91%] 33 of 36
+[e0/91dc4a] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 96%] 32 of 33
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (115)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[71/518717] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 91%] 33 of 36
+[e0/91dc4a] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 33 of 33
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (115)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[f9/06b299] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 94%] 34 of 36
+[e0/91dc4a] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 33 of 34
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (116)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[f9/06b299] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 94%] 34 of 36
+[72/e31771] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 33 of 34
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (116)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[ad/869f1f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 35 of 36
+[72/e31771] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 34 of 35
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (117)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[ad/869f1f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 35 of 36
+[90/db8288] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 34 of 35
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (117)
+[b1/3bc669] process > BAM_TO_FASTQ (33)              [ 78%] 36 of 46
+[ad/869f1f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 35 of 36
+[90/db8288] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 35 of 35
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (117)
+[b2/50d2c9] process > BAM_TO_FASTQ (34)              [ 80%] 37 of 46
+[ad/869f1f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 94%] 35 of 37
+[90/db8288] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 35 of 35
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (118)
+[b2/50d2c9] process > BAM_TO_FASTQ (34)              [ 80%] 37 of 46
+[77/a4bb31] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 94%] 35 of 37
+[90/db8288] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 35 of 35
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (118)
+[b2/50d2c9] process > BAM_TO_FASTQ (34)              [ 80%] 37 of 46
+[77/a4bb31] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 94%] 35 of 37
+[90/db8288] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 35 of 35
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (118)
+[b2/50d2c9] process > BAM_TO_FASTQ (34)              [ 80%] 37 of 46
+[2b/87ac5d] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 36 of 37
+[90/db8288] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 35 of 36
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (119)
+[b2/50d2c9] process > BAM_TO_FASTQ (34)              [ 80%] 37 of 46
+[2b/87ac5d] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 36 of 37
+[6a/d4efbf] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 35 of 36
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (119)
+[b2/50d2c9] process > BAM_TO_FASTQ (34)              [ 80%] 37 of 46
+[2b/87ac5d] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 36 of 37
+[6a/d4efbf] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 36 of 36
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (119)
+[10/e27c8c] process > BAM_TO_FASTQ (37)              [ 82%] 38 of 46
+[2b/87ac5d] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 94%] 36 of 38
+[6a/d4efbf] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 36 of 36
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (120)
+[10/e27c8c] process > BAM_TO_FASTQ (37)              [ 82%] 38 of 46
+[cc/6e5e00] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 94%] 36 of 38
+[6a/d4efbf] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 36 of 36
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (120)
+[10/e27c8c] process > BAM_TO_FASTQ (37)              [ 82%] 38 of 46
+[cc/6e5e00] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 94%] 36 of 38
+[6a/d4efbf] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 36 of 36
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (120)
+[10/e27c8c] process > BAM_TO_FASTQ (37)              [ 82%] 38 of 46
+[cc/6e5e00] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 37 of 38
+[6a/d4efbf] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 36 of 37
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (121)
+[10/e27c8c] process > BAM_TO_FASTQ (37)              [ 82%] 38 of 46
+[cc/6e5e00] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 37 of 38
+[66/abe6e2] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 36 of 37
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (121)
+[10/e27c8c] process > BAM_TO_FASTQ (37)              [ 82%] 38 of 46
+[cc/6e5e00] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 37 of 38
+[66/abe6e2] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 36 of 37
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (121)
+[10/e27c8c] process > BAM_TO_FASTQ (37)              [ 82%] 38 of 46
+[cc/6e5e00] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 37 of 38
+[66/abe6e2] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 37 of 37
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (121)
+[10/e27c8c] process > BAM_TO_FASTQ (37)              [ 82%] 38 of 46
+[77/a4bb31] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 38 of 38
+[66/abe6e2] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 37 of 38
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (122)
+[10/e27c8c] process > BAM_TO_FASTQ (37)              [ 82%] 38 of 46
+[77/a4bb31] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 38 of 38
+[dc/745b26] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 37 of 38
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (122)
+[10/e27c8c] process > BAM_TO_FASTQ (37)              [ 82%] 38 of 46
+[77/a4bb31] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 38 of 38
+[dc/745b26] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 37 of 38
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (122)
+[10/e27c8c] process > BAM_TO_FASTQ (37)              [ 82%] 38 of 46
+[77/a4bb31] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 38 of 38
+[dc/745b26] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 38 of 38
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (122)
+[62/fe077b] process > BAM_TO_FASTQ (26)              [ 84%] 39 of 46
+[77/a4bb31] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 38 of 39
+[dc/745b26] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 38 of 38
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (123)
+[62/fe077b] process > BAM_TO_FASTQ (26)              [ 84%] 39 of 46
+[22/3ae308] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 38 of 39
+[dc/745b26] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 38 of 38
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (123)
+[62/fe077b] process > BAM_TO_FASTQ (26)              [ 84%] 39 of 46
+[22/3ae308] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 38 of 39
+[dc/745b26] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 38 of 38
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (123)
+[f0/05e1c3] process > BAM_TO_FASTQ (28)              [ 86%] 40 of 46
+[22/3ae308] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 95%] 38 of 40
+[dc/745b26] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 38 of 38
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (124)
+[f0/05e1c3] process > BAM_TO_FASTQ (28)              [ 86%] 40 of 46
+[e2/b75994] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 95%] 38 of 40
+[dc/745b26] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 38 of 38
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (124)
+[f0/05e1c3] process > BAM_TO_FASTQ (28)              [ 86%] 40 of 46
+[e2/b75994] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 95%] 38 of 40
+[dc/745b26] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 38 of 38
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (124)
+[f0/05e1c3] process > BAM_TO_FASTQ (28)              [ 86%] 40 of 46
+[22/3ae308] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 39 of 40
+[dc/745b26] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 38 of 39
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (125)
+[f0/05e1c3] process > BAM_TO_FASTQ (28)              [ 86%] 40 of 46
+[22/3ae308] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 39 of 40
+[2a/09c35c] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 38 of 39
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (125)
+[f0/05e1c3] process > BAM_TO_FASTQ (28)              [ 86%] 40 of 46
+[22/3ae308] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 39 of 40
+[2a/09c35c] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 38 of 39
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (125)
+[f0/05e1c3] process > BAM_TO_FASTQ (28)              [ 86%] 40 of 46
+[22/3ae308] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 39 of 40
+[2a/09c35c] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 39 of 39
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (125)
+[f0/05e1c3] process > BAM_TO_FASTQ (28)              [ 86%] 40 of 46
+[e2/b75994] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 40 of 40
+[2a/09c35c] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 39 of 40
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (126)
+[f0/05e1c3] process > BAM_TO_FASTQ (28)              [ 86%] 40 of 46
+[e2/b75994] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 40 of 40
+[ae/2317ba] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 39 of 40
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (126)
+[f0/05e1c3] process > BAM_TO_FASTQ (28)              [ 86%] 40 of 46
+[e2/b75994] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 40 of 40
+[ae/2317ba] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 39 of 40
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (126)
+[f0/05e1c3] process > BAM_TO_FASTQ (28)              [ 86%] 40 of 46
+[e2/b75994] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 40 of 40
+[ae/2317ba] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 40 of 40
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (126)
+[80/8b382d] process > BAM_TO_FASTQ (44)              [ 89%] 41 of 46
+[e2/b75994] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 40 of 41
+[ae/2317ba] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 40 of 40
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (127)
+[80/8b382d] process > BAM_TO_FASTQ (44)              [ 89%] 41 of 46
+[62/036cfb] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 40 of 41
+[ae/2317ba] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 40 of 40
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (127)
+[80/8b382d] process > BAM_TO_FASTQ (44)              [ 89%] 41 of 46
+[62/036cfb] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 40 of 41
+[ae/2317ba] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 40 of 40
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (127)
+[80/8b382d] process > BAM_TO_FASTQ (44)              [ 89%] 41 of 46
+[62/036cfb] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 41 of 41
+[ae/2317ba] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 40 of 41
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (128)
+[80/8b382d] process > BAM_TO_FASTQ (44)              [ 89%] 41 of 46
+[62/036cfb] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 41 of 41
+[8d/e04866] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 40 of 41
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (128)
+[80/8b382d] process > BAM_TO_FASTQ (44)              [ 89%] 41 of 46
+[62/036cfb] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 41 of 41
+[8d/e04866] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 41 of 41
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (128)
+[c3/081519] process > BAM_TO_FASTQ (25)              [ 91%] 42 of 46
+[62/036cfb] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 41 of 42
+[8d/e04866] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 41 of 41
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (129)
+[c3/081519] process > BAM_TO_FASTQ (25)              [ 91%] 42 of 46
+[0d/b2edd8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 41 of 42
+[8d/e04866] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 41 of 41
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (129)
+[c3/081519] process > BAM_TO_FASTQ (25)              [ 91%] 42 of 46
+[0d/b2edd8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 41 of 42
+[8d/e04866] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 41 of 41
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (129)
+[c3/081519] process > BAM_TO_FASTQ (25)              [ 91%] 42 of 46
+[0d/b2edd8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 42 of 42
+[8d/e04866] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 41 of 42
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (130)
+[c3/081519] process > BAM_TO_FASTQ (25)              [ 91%] 42 of 46
+[0d/b2edd8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 42 of 42
+[05/24570b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 41 of 42
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (130)
+[c3/081519] process > BAM_TO_FASTQ (25)              [ 91%] 42 of 46
+[0d/b2edd8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 42 of 42
+[05/24570b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 42 of 42
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (130)
+[e6/d3369d] process > BAM_TO_FASTQ (29)              [ 93%] 43 of 46
+[0d/b2edd8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 42 of 43
+[05/24570b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 42 of 42
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (131)
+[e6/d3369d] process > BAM_TO_FASTQ (29)              [ 93%] 43 of 46
+[17/f1559a] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 42 of 43
+[05/24570b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 42 of 42
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (131)
+[e6/d3369d] process > BAM_TO_FASTQ (29)              [ 93%] 43 of 46
+[17/f1559a] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 42 of 43
+[05/24570b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 42 of 42
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (131)
+[e6/d3369d] process > BAM_TO_FASTQ (29)              [ 93%] 43 of 46
+[17/f1559a] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 43 of 43
+[05/24570b] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 42 of 43
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (132)
+[e6/d3369d] process > BAM_TO_FASTQ (29)              [ 93%] 43 of 46
+[17/f1559a] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 43 of 43
+[79/544d49] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 42 of 43
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (132)
+[e6/d3369d] process > BAM_TO_FASTQ (29)              [ 93%] 43 of 46
+[17/f1559a] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 43 of 43
+[79/544d49] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 42 of 43
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (132)
+[e6/d3369d] process > BAM_TO_FASTQ (29)              [ 93%] 43 of 46
+[17/f1559a] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 43 of 43
+[79/544d49] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 43 of 43
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (132)
+[00/8c1fdf] process > BAM_TO_FASTQ (24)              [ 95%] 44 of 46
+[17/f1559a] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 43 of 44
+[79/544d49] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 43 of 43
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (133)
+[00/8c1fdf] process > BAM_TO_FASTQ (24)              [ 95%] 44 of 46
+[88/f64031] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 43 of 44
+[79/544d49] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 43 of 43
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (133)
+[00/8c1fdf] process > BAM_TO_FASTQ (24)              [ 95%] 44 of 46
+[88/f64031] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 43 of 44
+[79/544d49] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 43 of 43
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (133)
+[00/8c1fdf] process > BAM_TO_FASTQ (24)              [ 95%] 44 of 46
+[88/f64031] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 44 of 44
+[79/544d49] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 43 of 44
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (134)
+[00/8c1fdf] process > BAM_TO_FASTQ (24)              [ 95%] 44 of 46
+[88/f64031] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 44 of 44
+[90/cb1352] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 43 of 44
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (134)
+[1c/d048e2] process > BAM_TO_FASTQ (45)              [ 97%] 45 of 46
+[88/f64031] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 44 of 45
+[90/cb1352] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 43 of 44
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (135)
+[1c/d048e2] process > BAM_TO_FASTQ (45)              [ 97%] 45 of 46
+[ac/e5d23e] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 44 of 45
+[90/cb1352] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 43 of 44
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (135)
+[1c/d048e2] process > BAM_TO_FASTQ (45)              [ 97%] 45 of 46
+[ac/e5d23e] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 44 of 45
+[90/cb1352] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 43 of 44
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (135)
+[1c/d048e2] process > BAM_TO_FASTQ (45)              [ 97%] 45 of 46
+[ac/e5d23e] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 44 of 45
+[90/cb1352] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 44 of 44
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (135)
+[1c/d048e2] process > BAM_TO_FASTQ (45)              [ 97%] 45 of 46
+[ac/e5d23e] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 45 of 45
+[90/cb1352] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 44 of 45
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (136)
+[1c/d048e2] process > BAM_TO_FASTQ (45)              [ 97%] 45 of 46
+[ac/e5d23e] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 45 of 45
+[ea/179cd8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 44 of 45
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (136)
+[1c/d048e2] process > BAM_TO_FASTQ (45)              [ 97%] 45 of 46
+[ac/e5d23e] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 45 of 45
+[ea/179cd8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 45 of 45
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (136)
+[bb/933f50] process > BAM_TO_FASTQ (27)              [100%] 46 of 46 ✔
+[ac/e5d23e] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 45 of 46
+[ea/179cd8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 45 of 45
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (137)
+[bb/933f50] process > BAM_TO_FASTQ (27)              [100%] 46 of 46 ✔
+[82/ff8f4f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 45 of 46
+[ea/179cd8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 45 of 45
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (137)
+[bb/933f50] process > BAM_TO_FASTQ (27)              [100%] 46 of 46 ✔
+[82/ff8f4f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 45 of 46
+[ea/179cd8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 45 of 45
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (137)
+[bb/933f50] process > BAM_TO_FASTQ (27)              [100%] 46 of 46 ✔
+[82/ff8f4f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 46 of 46 ✔
+[ea/179cd8] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 45 of 46
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (138)
+[bb/933f50] process > BAM_TO_FASTQ (27)              [100%] 46 of 46 ✔
+[82/ff8f4f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 46 of 46 ✔
+[8d/5fcdc6] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 45 of 46
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (138)
+[bb/933f50] process > BAM_TO_FASTQ (27)              [100%] 46 of 46 ✔
+[82/ff8f4f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 46 of 46 ✔
+[8d/5fcdc6] process > GET_KRAKEN2_RESULTS:RUN_KRA... [ 97%] 45 of 46
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+
+executor >  lsf (138)
+[bb/933f50] process > BAM_TO_FASTQ (27)              [100%] 46 of 46 ✔
+[82/ff8f4f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 46 of 46 ✔
+[8d/5fcdc6] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 46 of 46 ✔
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... -
+Pulling Singularity image docker://quay.io/team113sanger/sparki:1.0.0 [cache /lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc/work/singularity/quay.io-team113sanger-sparki-1.0.0.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc/work/singularity -- Use env variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+executor >  lsf (138)
+[bb/933f50] process > BAM_TO_FASTQ (27)              [100%] 46 of 46 ✔
+[82/ff8f4f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 46 of 46 ✔
+[8d/5fcdc6] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 46 of 46 ✔
+[-        ] process > REFINE_KRAKEN2_RESULTS:RUN_... [  0%] 0 of 1
+
+
+
+executor >  lsf (139)
+[bb/933f50] process > BAM_TO_FASTQ (27)              [100%] 46 of 46 ✔
+[82/ff8f4f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 46 of 46 ✔
+[8d/5fcdc6] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 46 of 46 ✔
+[12/2957ab] process > REFINE_KRAKEN2_RESULTS:RUN_... [  0%] 0 of 1
+
+
+
+executor >  lsf (139)
+[bb/933f50] process > BAM_TO_FASTQ (27)              [100%] 46 of 46 ✔
+[82/ff8f4f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 46 of 46 ✔
+[8d/5fcdc6] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 46 of 46 ✔
+[12/2957ab] process > REFINE_KRAKEN2_RESULTS:RUN_... [  0%] 0 of 1
+
+executor >  lsf (139)
+[bb/933f50] process > BAM_TO_FASTQ (27)              [100%] 46 of 46 ✔
+[82/ff8f4f] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 46 of 46 ✔
+[8d/5fcdc6] process > GET_KRAKEN2_RESULTS:RUN_KRA... [100%] 46 of 46 ✔
+[12/2957ab] process > REFINE_KRAKEN2_RESULTS:RUN_... [100%] 1 of 1 ✔
+Completed at: 02-Jul-2025 16:44:42
+Duration    : 2h 39m
+CPU hours   : 275.6
+Succeeded   : 139
+
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@node-14-12>
+Subject: Job 808584: <#!/bin/bash;#BSUB -q normal;#BSUB -G team113-grp;#BSUB -R "select[mem>10GB] rusage[mem=10GB] span[hosts=1]";#BSUB -M 10GB;#BSUB -n 1;#BSUB -o /lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc/logs/run_sparki-nf_%J.o;#BSUB -e /lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc/logs/run_sparki-nf_%J.e; module load nextflow/22.04.3;module load /software/modules/ISG/singularity/3.11.4; nextflow run "https://gitlab.internal.sanger.ac.uk/team113_projects/jb62-projects/sparki-nf" \;    -r 6846f25844cc0f4c63d0517c2ec34218d54fd09e \;    -params-file commands/sparki_params.json \;    -profile farm22> in cluster <farm22> Done
+
+Job <#!/bin/bash;#BSUB -q normal;#BSUB -G team113-grp;#BSUB -R "select[mem>10GB] rusage[mem=10GB] span[hosts=1]";#BSUB -M 10GB;#BSUB -n 1;#BSUB -o /lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc/logs/run_sparki-nf_%J.o;#BSUB -e /lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc/logs/run_sparki-nf_%J.e; module load nextflow/22.04.3;module load /software/modules/ISG/singularity/3.11.4; nextflow run "https://gitlab.internal.sanger.ac.uk/team113_projects/jb62-projects/sparki-nf" \;    -r 6846f25844cc0f4c63d0517c2ec34218d54fd09e \;    -params-file commands/sparki_params.json \;    -profile farm22> was submitted from host <farm22-head1> by user <jb62> in cluster <farm22> at Wed Jul  2 14:05:26 2025
+Job was executed on host(s) <node-14-12>, in queue <normal>, as user <jb62> in cluster <farm22> at Wed Jul  2 14:05:28 2025
+</nfs/users/nfs_j/jb62> was used as the home directory.
+</lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc> was used as the working directory.
+Started at Wed Jul  2 14:05:28 2025
+Terminated at Wed Jul  2 16:44:43 2025
+Results reported at Wed Jul  2 16:44:43 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -q normal
+#BSUB -G team113-grp
+#BSUB -R "select[mem>10GB] rusage[mem=10GB] span[hosts=1]"
+#BSUB -M 10GB
+#BSUB -n 1
+#BSUB -o /lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc/logs/run_sparki-nf_%J.o
+#BSUB -e /lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc/logs/run_sparki-nf_%J.e
+
+module load nextflow/22.04.3
+module load /software/modules/ISG/singularity/3.11.4
+
+nextflow run "https://gitlab.internal.sanger.ac.uk/team113_projects/jb62-projects/sparki-nf" \
+    -r 6846f25844cc0f4c63d0517c2ec34218d54fd09e \
+    -params-file commands/sparki_params.json \
+    -profile farm22
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   498.18 sec.
+    Max Memory :                                 2127 MB
+    Average Memory :                             736.81 MB
+    Total Requested Memory :                     10240.00 MB
+    Delta Memory :                               8113.00 MB
+    Max Swap :                                   -
+    Max Processes :                              15
+    Max Threads :                                823
+    Run time :                                   9554 sec.
+    Turnaround time :                            9557 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc/logs/run_sparki-nf_808584.e> for stderr output of this job.
+
