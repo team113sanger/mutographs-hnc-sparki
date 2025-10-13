@@ -1,0 +1,6 @@
+{
+    "bam_files": "/lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc/data/bam_paths.csv",
+    "ref_genomes": "/lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc/data/reference_paths.csv",
+    "outdir": "/lustre/scratch125/casm/teams/team113/users/jb62/projects/mutographs-hnc/results/map-to-genome",
+    "copy_mode": "symlink"
+}
