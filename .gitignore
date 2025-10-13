@@ -1,4 +1,5 @@
 *.log*
 .nextflow/*
 results/*
+data/*
 logs/bam_staging/*
