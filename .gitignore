@@ -1,5 +1,7 @@
 *.log*
 .nextflow/*
-results/*
+results/sparki-nf/*
+results/map-to-genome/*
+!results/map-to-genome/collated_mapping_stats.csv
 data/*
 logs/bam_staging/*
