@@ -7,7 +7,10 @@ sparki_res_path <- here::here("results/sparki-nf/sparki/final_table_with_pvalues
 sparki_res <- read.csv(sparki_res_path)
 sparki_res_hpv <- sparki_res |> 
     dplyr::filter(species == "Alphapapillomavirus_9") |>
-    dplyr::select(sample, ratio_clade)
+    dplyr::select(sample, ratio_clade, padj) |>
+    dplyr::mutate(
+        log_padj = -log10(padj)
+    )
 
 map_to_genome_res_path <- here::here("results/map-to-genome/collated_mapping_stats.csv")
 map_to_genome_res <- read.csv(map_to_genome_res_path)
@@ -38,7 +41,8 @@ make_tile_plot <- function(
     fill_category,
     colour_type,
     colours,
-    legend_title
+    legend_title,
+    limits
 ) {
 
     tile_plot <- ggplot(
@@ -51,23 +55,24 @@ make_tile_plot <- function(
         geom_tile() +
         theme_void() +
         theme(
-            legend.title = element_text(size = 8),
-            legend.text = element_text(size = 7),
-            legend.direction = "vertical",
             legend.justification = c("left", "top"),
-            legend.box.margin = margin(0, 0, 0, 0),
-            legend.margin = margin(0, 0, 0, 0),
-            legend.key.height = unit(0.35, "cm"),  
-            legend.key.width = unit(0.35, "cm"),
-            legend.spacing = unit(0, "cm"),     
-            legend.spacing.y = unit(0, "cm"),
-            plot.margin = margin(0, 0, 0, 0)
+            legend.text = ggplot2::element_text(size = 8),
+            legend.title = ggplot2::element_text(size = 10),
+            legend.box = "vertical",
+            legend.direction = "vertical",
+            axis.text = ggplot2::element_blank(),
+            axis.ticks = ggplot2::element_blank(),
+            axis.title = ggplot2::element_blank(),
+            axis.line = ggplot2::element_blank(), 
+            plot.margin = ggplot2::unit(c(0, 0, 0, 0), "cm")
         )
     if (colour_type == "continuous") {
         tile_plot <- tile_plot + scale_fill_distiller(
             palette = colours, 
             direction = 1, 
-            name = legend_title
+            name = legend_title,
+            na.value = "snow3",
+            limits = limits
         )
     } else if (colour_type == "discrete") {
         tile_plot <- tile_plot + scale_fill_manual(
@@ -89,57 +94,56 @@ plot1 <- ggplot(map_to_genome_plus_sparki_plus_status, aes(x = reorder(sample, m
         axis.title.y = element_text(size = 8)
     )
 
-plot2 <- make_tile_plot("ratio_clade", "continuous", "Reds", "Minimiser proportion")
-plot3 <- make_tile_plot("genome_coverage", "continuous", "Blues", "Proportion of genome covered")
-plot4 <- make_tile_plot("duplicate_ratio", "continuous", "Greens", "# Duplicates / # All reads")
-plot5 <- make_tile_plot("log10all", "continuous", "Oranges", "log10(# All reads)")
-plot6 <- make_tile_plot("hpv_status", "discrete", c("gray", "purple"), "HPV status (Torrens et al.)")
-
-plots_combined_list <- list(
-    plot1,
-    plot2 + theme(legend.position = "none"),
-    plot3 + theme(legend.position = "none"),
-    plot4 + theme(legend.position = "none"),   
-    plot5 + theme(legend.position = "none"),   
-    plot6 + theme(legend.position = "none")
+plot2 <- make_tile_plot("ratio_clade", "continuous", "Reds", "Minimiser proportion", c(0,1))
+plot3 <- make_tile_plot("genome_coverage", "continuous", "Blues", "Proportion of genome covered", c(0,1))
+plot4 <- make_tile_plot("duplicate_ratio", "continuous", "Greens", "# Duplicates / # All reads", c(0,1))
+plot5 <- make_tile_plot(
+    "log10all", 
+    "continuous", 
+    "Oranges", 
+    expression("log"[10]~"(# All reads)"), 
+    c(min(map_to_genome_plus_sparki_plus_status$log10all), max(map_to_genome_plus_sparki_plus_status$log10all))
 )
+plot6 <- make_tile_plot("hpv_status", "discrete", c("snow3", "purple"), "HPV status (Torrens et al.)")
 
 legends_combined_list <- list(
-    cowplot::get_legend(plot2),
-    cowplot::get_legend(plot3),
-    cowplot::get_legend(plot4),
-    cowplot::get_legend(plot5),
-    cowplot::get_legend(plot6)
-)
-
-plots_combined <- cowplot::plot_grid(
-    plotlist = plots_combined_list,
-    align = "v",
-    axis = "lr",
-    ncol = 1,
-    rel_heights = c(1.8, 0.1, 0.1, 0.1, 0.1, 0.1)
+    ggpubr::as_ggplot(ggpubr::get_legend(plot2)),
+    ggpubr::as_ggplot(ggpubr::get_legend(plot3)),
+    ggpubr::as_ggplot(ggpubr::get_legend(plot4)),
+    ggpubr::as_ggplot(ggpubr::get_legend(plot5)),
+    ggpubr::as_ggplot(ggpubr::get_legend(plot6)),
+    NULL
 )
 
 legends_combined <- cowplot::plot_grid(
     plotlist = legends_combined_list,
-    align = "h",
-    axis = "tb",
-    nrow = 2,
-    rel_widths = c(1, 1, 1, 1, 1)
+    nrow = 1,
+    rel_widths = c(0.35,0.45,0.4,0.3,0.2,0.5)
 )
 
-plots_plus_legend <- cowplot::plot_grid(
-    plotlist = list(plots_combined, legends_combined),
-    align = "hv",
-    axis = "tblr",
+plots_plus_legend_list <- list(
+    plot1,
+    plot2 + ggplot2::theme(legend.position = "none", plot.margin = ggplot2::unit(c(0, 0, 0, 0), "cm")),
+    plot3 + ggplot2::theme(legend.position = "none", plot.margin = ggplot2::unit(c(0, 0, 0, 0), "cm")),
+    plot4 + ggplot2::theme(legend.position = "none", plot.margin = ggplot2::unit(c(0, 0, 0, 0), "cm")),   
+    plot5 + ggplot2::theme(legend.position = "none", plot.margin = ggplot2::unit(c(0, 0, 0, 0), "cm")),   
+    plot6 + ggplot2::theme(legend.position = "none", plot.margin = ggplot2::unit(c(0, 0, 0, 0), "cm")),
+    NULL,
+    legends_combined
+)
+
+png(
+    here::here("results/final_figure_map_to_genome_outputs.png"), 
+    width = 12, 
+    height = 7, 
+    units = "in", 
+    res = 1200
+)
+cowplot::plot_grid(
+    plotlist = plots_plus_legend_list,
     ncol = 1,
-    rel_heights = c(0.85, 0.5)
+    rel_heights = c(0.4, 0.025, 0.025, 0.025, 0.025, 0.025, 0.02, 0.2),
+    align = "v",
+    axis = "lr"
 )
-    
-ggpubr::ggexport(
-    plots_plus_legend,
-    filename = paste0(getwd(), "/test.png"),
-    res = 300,
-    width = 2200,
-    height = 1800
-)
+dev.off()
