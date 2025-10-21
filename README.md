@@ -30,17 +30,3 @@ Rscript /opt/data/scripts/make_final_minimiser_plot.R
 ```bash
 Rscript /opt/data/scripts/make_barplot.R
 ```
-
-and in an R shell, we used the function `SPARKI::plotMinimisers_dotplot()` to generate the figure `results/final_figure_Viruses_propMinimisers_and_pvalues.pdf`
-```R
-library(SPARKI)
-merged_reports <- readr::read_csv("/opt/data/results/sparki/final_table_with_pvalues.csv")
-SPARKI::plotMinimisers_dotplot(
-    merged_reports,
-    domain="Viruses",
-    fig_width=12.5,
-    fig_height=8,
-    outdir="/opt/data/results/",
-    prefix="final_figure"
-)
-```
