@@ -56,8 +56,8 @@ make_tile_plot <- function(
         theme_void() +
         theme(
             legend.justification = c("left", "top"),
-            legend.text = ggplot2::element_text(size = 8),
-            legend.title = ggplot2::element_text(size = 10),
+            legend.text = ggplot2::element_text(size = 10),
+            legend.title = ggplot2::element_text(size = 12),
             legend.box = "vertical",
             legend.direction = "vertical",
             axis.text = ggplot2::element_blank(),
@@ -89,9 +89,9 @@ plot1 <- ggplot(map_to_genome_plus_sparki_plus_status, aes(x = reorder(sample, m
     ylab("# Reads mapping to HPV16\n(log10-scaled)") +
     theme_classic() +
     theme(
-        axis.text.x = element_text(size = 8, angle = 90, hjust = 0.5, vjust = 0.5),
+        axis.text.x = element_text(size = 10, angle = 90, hjust = 0.5, vjust = 0.5),
         axis.title.x = element_blank(),
-        axis.title.y = element_text(size = 8)
+        axis.title.y = element_text(size = 12)
     )
 
 plot2 <- make_tile_plot("ratio_clade", "continuous", "Reds", "Minimiser proportion", c(0,1))
@@ -138,6 +138,20 @@ png(
     height = 7, 
     units = "in", 
     res = 1200
+)
+cowplot::plot_grid(
+    plotlist = plots_plus_legend_list,
+    ncol = 1,
+    rel_heights = c(0.4, 0.025, 0.025, 0.025, 0.025, 0.025, 0.02, 0.2),
+    align = "v",
+    axis = "lr"
+)
+dev.off()
+
+pdf(
+    here::here("results/final_figure_map_to_genome_outputs.pdf"), 
+    width = 12, 
+    height = 7
 )
 cowplot::plot_grid(
     plotlist = plots_plus_legend_list,
