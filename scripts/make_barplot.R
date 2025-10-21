@@ -118,7 +118,7 @@ legends_combined_list <- list(
 legends_combined <- cowplot::plot_grid(
     plotlist = legends_combined_list,
     nrow = 1,
-    rel_widths = c(0.35,0.45,0.4,0.3,0.2,0.5)
+    rel_widths = c(0.35,0.5,0.4,0.3,0.2,0.5)
 )
 
 plots_plus_legend_list <- list(
