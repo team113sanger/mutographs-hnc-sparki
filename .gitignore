@@ -1,7 +1,9 @@
 *.log*
 .nextflow/*
 results/sparki-nf/*
+!results/sparki-nf/sparki/final_table_with_pvalues.csv
 results/map-to-genome/*
 !results/map-to-genome/collated_mapping_stats.csv
 data/*
+!data/torrens_et_al_hpv16_status_table.csv
 logs/bam_staging/*
